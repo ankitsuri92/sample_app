@@ -1,10 +1,11 @@
 SampleApp::Application.routes.draw do
-  get "users/new"
-<<<<<<< HEAD
+  
+
+  resources :users
+
 
   get "static_pages/home"
-=======
->>>>>>> filling-in-layout
+
 
  root to: 'static_pages#home'
 
